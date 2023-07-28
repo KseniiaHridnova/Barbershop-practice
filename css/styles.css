@@ -1,3 +1,123 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* ---------------------------------HEADER------------------------------ */
+
+.header-link {
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.2px;
+}
+
+.header-link:hover,
+.header-link:focus {
+color: #FF6C00;
+}
+
+.header-tel {
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.2px;
+}
+.header-btn{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+}
+
+/* ----------------------------------------------HERO------------------------------------------- */
+
+.hero-link {
+        color: #303030;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 2.2px;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    color: #FF6C00;
+}
+
+.hero-pre-title {
+        color: rgba(157, 164, 189, 0.60);
+        font-size: 11px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.1px;
+        text-transform: uppercase;
+}
+
+.hero-title {
+        color: #FFF;
+        font-family: 'Raleway', sans-serif;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.6px;
+}
+
+.hero-after-title {
+        color: #9DA4BD;
+        font-size: 18px;
+        line-height: 1.66;
+        letter-spacing: 0.36px;
+}
+
+/* ------------------------------------------------ABOUT---------------------------------- */
+.about-pre-title {
+        color: #303030;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.1px;
+        text-transform: uppercase;
+}
+
+.about-title {
+        color: #303030;
+        font-family: 'Raleway', sans-serif;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.1px;
+}
+
+.about-after-title {
+        color: #555;
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.36px;
+}
+
+.about-text {
+        color: #555;
+        font-size: 14px;
+        line-height: 1.86;
+        letter-spacing: 0.28px;
+}
+
+.about-btn {
+        color: #303030;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+}
