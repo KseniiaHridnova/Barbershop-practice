@@ -37,6 +37,29 @@ body {
         letter-spacing: 1.1px;
         text-transform: uppercase;
 }
+
+.btn {
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
 /* ---------------------------------HEADER------------------------------ */
 
 .header-link {
@@ -61,12 +84,6 @@ color: var(--accent-color);
 }
 .header-btn{
         color: #FFF;
-        font-family: inherit;
-        font-size: 12px;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: 1.08px;
-        text-transform: uppercase;
 }
 
 /* ----------------------------------------------HERO------------------------------------------- */
@@ -123,12 +140,6 @@ color: var(--accent-color);
 
 .about-btn {
         color: #303030;
-        font-family: inherit;
-        font-size: 12px;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: 1.08px;
-        text-transform: uppercase;
 }
 
 /* --------------------------------------------PRICES--------------------------------------- */
@@ -154,12 +165,6 @@ color: var(--accent-color);
 
 .prices-btn {
                 color: #FFF;
-                font-family: inherit;
-                font-size: 12px;
-                font-weight: 600;
-                line-height: normal;
-                letter-spacing: 1.08px;
-                text-transform: uppercase;
 }
 
 /* -----------------------------------BENEFITS------------------------------------ */
@@ -199,4 +204,38 @@ color: var(--accent-color);
 
 .benefits-after-title {
                 color: #555;
+
 }
+
+ /* ---------------------------BARBERS-----------------------------*/
+
+   .barbers-pre-title {
+        color: #303030;
+   }
+
+   .barbers-title {
+        color: #303030;
+   }
+
+   .barbers-item-title {
+                color: #303030;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.36px;
+   }
+
+   .barbers-item-text {
+                color: var(--accent-color);
+                text-align: center;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.28px;
+   }
+/* -----------------------------------GALLERY--------------------------------------- */
+
+   .gallery-pre-title {
+        color: #303030;
+   }
