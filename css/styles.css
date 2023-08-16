@@ -96,6 +96,20 @@ body {
         padding-bottom: 32px;
 }
 
+.header-logo {
+        margin-right: 131px;
+}
+
+.header .container {
+        display: flex;
+        align-items: center;
+}
+
+.header-list {
+        display: flex;
+        column-gap: 30px;
+}
+
 .header-link {
         color: #FFF;
         font-size: 12px;
@@ -109,6 +123,10 @@ body {
 color: var(--accent-color);
 }
 
+.header-contact {
+        margin-left: auto;
+}
+
 .header-tel {
         color: #FFF;
         font-size: 12px;
@@ -118,12 +136,17 @@ color: var(--accent-color);
 }
 .header-btn{
         color: #FFF;
+        margin-left: 45px;
 }
 
 /* ----------------------------------------------HERO------------------------------------------- */
 
-.hero {
-        background-color: rgb(150, 144, 144);
+.hero .container {
+display: flex;
+}
+
+.hero-list {
+        width: 100px;
 }
 
 .hero-link {
@@ -140,7 +163,9 @@ color: var(--accent-color);
 }
 
 .hero-content {
-        padding: 272px 100px 206px
+        background-color: rgb(150, 144, 144);
+        padding: 272px 100px 206px;
+        flex-grow: 1;
 }
 
 .hero-pre-title {
